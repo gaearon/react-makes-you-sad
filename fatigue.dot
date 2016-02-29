@@ -74,7 +74,7 @@ digraph {
 
   is_not_enough_flux[
     shape="diamond",
-    label="Do you a few
+    label="Do you have a few
     painfully bloated stateful
     components at the top
     of your component hierarchy?"
