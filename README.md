@@ -1,12 +1,12 @@
 # react-makes-you-sad
 Fluxograma para te fazer feliz novamente!
 
-Original (em inglês)(https://github.com/gaearon/react-makes-you-sad)
+Original (em inglês): https://github.com/gaearon/react-makes-you-sad
 
 
-## <a href='https://cdn.rawgit.com/gaearon/react-makes-you-sad/1377b6a6cdc644adfea6bf238f06c75d33ed6f1e/fatigue.svg' target='_blank'>Open in a new tab</a>
+## <a href='https://github.com/brunogenaro/react-makes-you-sad/blob/master/fatigue.svg' target='_blank'>Open in a new tab</a>
 
-<img src='https://cdn.rawgit.com/gaearon/react-makes-you-sad/1377b6a6cdc644adfea6bf238f06c75d33ed6f1e/fatigue.svg'>
+<img src='https://github.com/brunogenaro/react-makes-you-sad/blob/master/fatigue.svg'>
 
 ## Credits
 
