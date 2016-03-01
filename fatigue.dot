@@ -20,15 +20,15 @@ digraph {
   boilerplates_dont_teach[
     shape="box",
     label="Aprender React copiando boilerplates
-    é como aprender cozinhar comendo em restaurantes
+    é como aprender cozinhar comendo em restaurante
     chique. Não funciona. Você precisa começar com
     o básica e ignorar o medo de não entender algo.
-    missing out. É sem fundamento. Pessoas criam
+    É sem fundamento. Pessoas criam
     boilerplates para mostrar o que eles desenvolveram
     ou aprenderam, não para te ajudar a aprender. Eles são
     criados por e para usuários ativos e normalmente estão
     muito mais para um experimento do que eles admitem.
-    Boilerplates compentem por atenção o que leva à
+    Boilerplates competem por atenção o que leva à
     excesso de informação. Se você está nessa pelo React, aprenda
     na ordem em que o Pete Hunt descreve neste guia:
     https://github.com/petehunt/react-howto.
@@ -42,7 +42,7 @@ digraph {
     label="Enquanto boilerplates não são uma boa maneira
     de se aprender tecnologias combinadas,
     eles são úteis para ver como essas tecnologias
-    podem trabalhar juntas *após* você estar confortável
+    podem trabalhar juntas após você estar confortável
     com cada uma delas independentemente. É uma ótima maneira
     de descobrir novas tecnologias mas você não deveria
     se sentir obrigado a usar todas elas.
@@ -67,7 +67,7 @@ digraph {
     shape="diamond",
     label="Isso adicionar muitos
     boilerplates para
-    para um não resultado significativo?"
+    um NÃO resultado significativo?"
   ]
   is_too_much_flux -> remove_flux[label="sim"]
   is_too_much_flux -> are_you_using_bundler[label="não"]
@@ -86,7 +86,7 @@ digraph {
     label="Considere adicionar a biblioteca Flux.
     Ela pode te ajudar a exteriorizar o estado
     compartilhado entre muitos componentes
-    e atualiza-los consistentemente."
+    e atualizá-los consistentemente."
   ]
   add_flux -> are_you_using_bundler
 
@@ -94,7 +94,7 @@ digraph {
     shape="box",
     label="Remova a biblioteca Flux.
     Se sinta confortável em estruturar
-    apps em React puro (vanilla) lendo o
+    apps em React puro lendo o
     “Thinking in React” na documentação oficial."
   ]
   remove_flux -> are_you_using_bundler
@@ -105,7 +105,7 @@ digraph {
     shape="diamond",
     label="Você está usando um
     empacotador JavaScript
-    (ex. Webpack, Browserify)?"
+    (ex: Webpack, Browserify)?"
   ]
   are_you_using_bundler -> are_you_working_on_production_app_with_bundler[label="sim"]
   are_you_using_bundler -> are_you_working_on_production_app_without_bundler[label="não"]
@@ -131,7 +131,7 @@ digraph {
     label="Adicione um empacotador como parte do seu
     processo para manter as dependências manuseáveis
     e servir o código JavaScript eficientemente.
-    Use a ferramente Google Page Speed insights
+    Use a ferramente Google Page Speed Insights
     para medir o quão bem você está indo.
     Lembre-se de minificar e envify
     seu código."
@@ -168,7 +168,7 @@ digraph {
     Bibliotecas de terceiros geralmente vão usar
     a sintáxe do ES2015 nas documentações mas
     você não precisa dessas bibliotecas quando
-    você está apenas aprendendo React propriamente dito.
+    você está apenas aprendendo React.
     Quando você sentir que precisa atualizar seu conhecimento
     em JavaScript, https://leanpub.com/understandinges6/read
     é um excelente guia. Use http://babeljs.io/repl
@@ -191,7 +191,7 @@ digraph {
   can_you_spend_days_on_your_tooling[
     shape="diamond",
     label="Você pode gastar dias arrumando
-    suas ferramentas toda semana por causa
+    suas ferramentas por causa
     de erros, incompatibilidades e
     mudanças padrões?"
   ]
@@ -209,7 +209,7 @@ digraph {
 
   do_you_update_packages_asap[
     shape="diamond",
-    label="Você atualiza para principais novas versões
+    label="Você atualiza para as principais novas versões
     de suas dependências assim que elas
     são lançadas?"
   ]
@@ -222,11 +222,11 @@ digraph {
     que é muito bem testado antes de cada lançamento,
     conside ir devagar em atualizações de pacotes.
     Você pode tentar novas versões de dependências mas
-    é melhor mante-los em uma branch por alguns meses
+    é melhor mantê-los em uma branch por alguns meses
     até que a comunidades encontre e arrume os
     erros mais comuns. Não faça decisões baseadas em
     medo de perder algo! Quando olhar documentações antigas,
-    não se esqueça de checar lançamento tagged no GitHub, ex:
+    não se esqueça de checar lançamentos tagged no GitHub, ex:
     https://github.com/reactjs/react-router/tree/0.13.x/doc"
   ]
   give_it_two_months -> are_you_still_sad
@@ -236,8 +236,8 @@ digraph {
     label="É uma boa opção.
     Contudo, nós encorajamos você a
     tentar (em uma branch!) novas versões do
-    React assim que elas são lançadas.
-    Ao contrário de muitos comunidades de pacotes,
+    React assim que elas são lançadas,
+    ao contrário de muitas comunidades de pacotes,
     que são testadas intensivamente pelo Facebook.
     Fique de olho na descrição do lançamento que conectam
     com os codemods que são partes automatizadas
@@ -258,8 +258,8 @@ digraph {
     shape="box",
     label="Escreva em um blog uma postagem construtiva
     sobre os problemas que você encontrar.
-    Não ligue para ataques pessoais.
-    Seja educato. Ajuda a comunidade
+    Não ligue para críticas pessoais.
+    Seja educado. Ajuda a comunidade
     a encontrar soluções. Considere
     outras linguagens, frameworks e bibliotecas
     que se adapte às suas necessidades (ex: Ember)."
@@ -276,7 +276,7 @@ digraph {
   share [
     shape="box",
     style=rounded,
-    label="Compartilhe esse fluxograma: http://bit.ly/react-makes-you-sad.
-    Tradução do https://github.com/petehunt/react-howto."
+    label="Compartilhe esse fluxograma: https://github.com/brunogenaro/react-makes-you-sad.
+    Tradução do https://github.com/gaearon/react-makes-you-sad."
   ]
 }
