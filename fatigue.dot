@@ -2,7 +2,7 @@ digraph {
   unhappy[
     shape="box",
     style=rounded,
-    label="React makes you sad."
+    label="React 가 당신을 슬프게 했군요."
   ]
   unhappy -> are_you_using_react_boilerplates;
 
@@ -10,45 +10,41 @@ digraph {
 
   are_you_using_react_boilerplates[
     shape="diamond",
-    label="Are you learning
-    React by copying from the
-    boilerplate projects?"
+    label="당신은 React를 시작할 떄
+    템플릿처럼 일정부분이 완성된 프로젝트
+    (보일러플레이트)를 복사해서 익혔나요?"
   ]
-  are_you_using_react_boilerplates -> boilerplates_dont_teach[label="yes"]
-  are_you_using_react_boilerplates -> steal_from_boilerplates[label="no"]
+  are_you_using_react_boilerplates -> boilerplates_dont_teach[label="네"]
+  are_you_using_react_boilerplates -> steal_from_boilerplates[label="아니오"]
 
   boilerplates_dont_teach[
     shape="box",
-    label="Learning React by copying boilerplates
-    is like learning to cook by eating food in
-    fancy restaurants. It doesn’t work. You need
-    to start with basics and ignore the fear of
-    missing out. It’s unfounded. People create
-    boilerplates to show off what they built
-    or learned, not to help you learn. They are
-    created by and for power users, and are often
-    way more experimental than they care to admit.
-    Boilerplates compete for attention which leads
-    to more bloat. If you’re in it for React, learn
-    it in the order Pete Hunt described in his guide:
-    https://github.com/petehunt/react-howto.
-    Look at boilerplates no sooner than you can
-    create your own."
+    label="보일러 플레이트를 복사해서 React를 배우는 것은
+    마치 유명 레스토랑에서 음식을 먹으면서 배우는 것과도 같습니다.
+    이렇게는 안되요. 당신은 기초부터 배울 필요가 있습니다.
+    트렌드를 놓칠까봐 생기는 걱정은 무시해도 좋습니다. 사실 무근이죠.
+    사람들은 보일러 플레이트를 당신이 배우기 좋게 만드는 것이라기 보다
+    자신이 만든 것 혹은 배운것을 자랑하려고 만듭니다.그것들은 파워유저
+    들을 위해 만들어졌기에 때로는 그들이 인정하는 것보다 실험적입니다.
+    자랑을 위해 만들어진 보일러플레이트들은 관심을 끌기 위해 경쟁합니다.
+    React를 배울 거라면, Pete Hunt가 제안한 순서대로 배우는 것이
+    좋습니다. 주소는 다음과 같습니다.
+    https://github.com/petehunt/react-howto
+    당신이 직접 만드는 것이 보일러플레이트를 사용하는 것보다 빠를 것
+    입니다."
   ]
   boilerplates_dont_teach -> are_you_using_flux
 
   steal_from_boilerplates[
     shape="box",
-    label="While boilerplates are not a good
-    way to learn the technologies they combine,
-    they are useful to see how these technologies
-    can be tied together *after* you’re comfortable
-    with each of them independently. It’s a great
-    way to discover new technologies but you
-    shouldn’t feel obligated to use them at all.
-    Don’t give up on boilerplates completely.
-    Just keep in mind that a boilerplate is
-    a bag of tricks, not a solid base for your app."
+    label="보일러플레이트들은 기술들이 어떻게 엮여져 있는지 배우기에 좋은
+    방법은 아니지만, 당신이 각각 이 기술들을 개별적으로 이해한
+    뒤라면! 어떻게 이런 기술들이 잘 묶일 수 있는지를 파악하기에
+    그들은 유용합니다. 그것은 새로운 기술을 발견 할 수 있는 좋은
+    방법입니다. 그렇다고 해서 그것들 모두를 사용하는 의무감을 느낄
+    필요는 없습니다. 보일러플레이트땜에 질리지 마세요.
+    보일러 플레이트는 당신의 어플리케이션을 위한 견고한 기반이 아니라
+    독창적인 기술의 집합임을 명심하세요."
   ]
   steal_from_boilerplates -> are_you_using_flux
 
@@ -56,47 +52,47 @@ digraph {
 
   are_you_using_flux[
     shape="diamond",
-    label="Are you using
-    a Flux library
-    (or Redux)?"
+    label="Flux 라이브러리
+    (혹은 Redux)를  사용하고
+    있습니까?"
   ]
-  are_you_using_flux -> is_too_much_flux[label="yes"]
-  are_you_using_flux -> is_not_enough_flux[label="no"]
+  are_you_using_flux -> is_too_much_flux[label="네"]
+  are_you_using_flux -> is_not_enough_flux[label="아니오"]
 
   is_too_much_flux[
     shape="diamond",
-    label="Does it add
-    a lot of boilerplate
-    for no obvious gain?"
+    label="명백한 이득없이
+    보일러 플레이트를 많이
+    사용해야 합니까?"
   ]
-  is_too_much_flux -> remove_flux[label="yes"]
-  is_too_much_flux -> are_you_using_bundler[label="no"]
+  is_too_much_flux -> remove_flux[label="네"]
+  is_too_much_flux -> are_you_using_bundler[label="아니오"]
 
   is_not_enough_flux[
     shape="diamond",
-    label="Do you have a few
-    bloated stateful components at the top
-    of your component hierarchy that are
-    often the source of bugs?"
+    label="종종 소스의 버그를 만들어내는
+    state가 많이 관리되는 컴포넌트가
+    컴포넌트 계층 구조의 상단에서 자리잡고
+    있습니까?"
+
   ]
-  is_not_enough_flux -> add_flux[label="yes"]
-  is_not_enough_flux -> are_you_using_bundler[label="no"]
+  is_not_enough_flux -> add_flux[label="네"]
+  is_not_enough_flux -> are_you_using_bundler[label="아니오"]
 
   add_flux[
     shape="box",
-    label="Consider adding a Flux library.
-    It can help externalize the state
-    shared between many components
-    and update it consistently."
+    label="Flux 라이브러리를 추가하는 것을 고려해 보세요.
+    다량의 컴포넌트들 간에 state를 외부화 하고 지속적으로
+    업데이트 하는데 도움이 됩니다."
   ]
   add_flux -> are_you_using_bundler
 
   remove_flux[
     shape="box",
-    label="Remove the Flux library.
-    Get a good feel for structuring
-    apps in vanilla React by reading
-    “Thinking in React” in the official docs."
+    label="Flux 라이브러리를 제거하세요.
+    공식 사이트 문서의 Thinking in React
+    를 읽어보고 순수 React 형태의 어플리케이션을
+    구조화하는데 좋은 감각을 가지세요."
   ]
   remove_flux -> are_you_using_bundler
 
@@ -104,50 +100,47 @@ digraph {
 
   are_you_using_bundler[
     shape="diamond",
-    label="Are you using
-    a JavaScript bundler
-    (e.g. Webpack, Browserify)?"
+    label="Webpack이나 Browserify 같은
+    자바스크립트 번들러를 사용하나요?"
   ]
-  are_you_using_bundler -> are_you_working_on_production_app_with_bundler[label="yes"]
-  are_you_using_bundler -> are_you_working_on_production_app_without_bundler[label="no"]
+  are_you_using_bundler -> are_you_working_on_production_app_with_bundler[label="네"]
+  are_you_using_bundler -> are_you_working_on_production_app_without_bundler[label="아니오"]
 
   are_you_working_on_production_app_with_bundler[
     shape="diamond",
-    label="Are you working
-    on a production app?"
+    label="제품화 단계의
+    어플리케이션입니까?"
   ]
-  are_you_working_on_production_app_with_bundler -> do_you_know_es2015[label="yes"]
-  are_you_working_on_production_app_with_bundler -> remove_bundler[label="no"]
+  are_you_working_on_production_app_with_bundler -> do_you_know_es2015[label="네"]
+  are_you_working_on_production_app_with_bundler -> remove_bundler[label="아니오"]
 
   are_you_working_on_production_app_without_bundler[
     shape="diamond",
-    label="Are you working
-    on a production app?"
+    label="제품화 단계의
+    어플리케이션입니까?"
   ]
-  are_you_working_on_production_app_without_bundler -> add_bundler[label="yes"]
-  are_you_working_on_production_app_without_bundler -> do_you_know_es2015[label="no"]
+  are_you_working_on_production_app_without_bundler -> add_bundler[label="네"]
+  are_you_working_on_production_app_without_bundler -> do_you_know_es2015[label="아니오"]
 
   add_bundler[
     shape="box",
-    label="Add a bundler as a build step
-    to keep dependencies manageable
-    and serve the JavaScript code efficiently.
-    Use Google Page Speed insights tool
-    to gauge how well you are doing.
-    Remember to minify and envify
-    your code."
+    label="의존성을 관리하고 효과적으로 소스코드를 유지하기
+    위해 빌드 단계에 번들러를 추가하세요.
+    얼마나 잘하고 있는지 측정하기 위해서는
+    Google Page Speed 를 사용해 보세요.
+    minify와 envify를 쓰는 것을 잊지마세요."
+
   ]
   add_bundler -> do_you_know_es2015
 
   remove_bundler[
     shape="box",
-    label="There is no need for a bundler
-    if you are just learning React.
-    Copy https://github.com/jarsbe/react-simple
-    and start hacking with no build step.
-    Use <script> tags until you are comfortable
-    with React and want to learn more about module
-    systems and different bundlers."
+    label="React를 그저 배우는 단계에서는
+    번들러를 사용할 필요는 없습니다.
+    https://github.com/jarsbe/react-simple
+    프로젝트를 내려받아서 빌드 단계없이 시작하세요.
+    React가 익숙해지고 모듈 시스템과 다른 번들러는
+    알고 싶어질 때까지는 <script> 태그를 사용하세요."
   ]
   remove_bundler -> do_you_know_es2015
 
@@ -155,25 +148,26 @@ digraph {
 
   do_you_know_es2015[
     shape="diamond",
-    label="Do you feel
-    comfortable using ES2015 features
-    (e.g. classes and fat arrows)?"
+    label="ES2015의 기능들을
+    사용하는데 익숙합니까?
+    (classes나 fat arrow같은 기능)"
   ]
-  do_you_know_es2015 -> use_es5[label="no"]
-  do_you_know_es2015 -> are_you_using_dangerous_features[label="yes"]
+  do_you_know_es2015 -> use_es5[label="아니오"]
+  do_you_know_es2015 -> are_you_using_dangerous_features[label="네"]
 
   use_es5[
     shape="box",
-    label="Don’t use ES2015 yet.
-    You don’t need it to learn React.
-    Third-party libraries will often use
-    ES2015 syntax in their documentation but
-    you don’t need third-party libraries when
-    you are just learning React itself.
-    When you feel like updating your JavaScript
-    knowledge, https://leanpub.com/understandinges6/read
-    is an amazing guide. Use http://babeljs.io/repl
-    to verify your assumptions."
+    label="ES2015는 보류하세요.
+    React를 배우기 위해 필수는 아닙니다.
+    써드파티 라이브러리들이 종종 ES2015문법을
+    그들의 문서에 적고 있습니다. 하지만 당신이
+    React만 배우려고 할 때는 써드파티 라이브러리가
+    필요 없습니다.
+    Javascript를 더 공부해야겠다고 느껴질 때면
+    https://leanpub.com/understandinges6/read
+    는 매우 유용한 가이드가 됩니다.
+    http://babeljs.io/repl 를 통해서
+    실습해 보세요."
   ]
   use_es5 -> do_you_update_packages_asap
 
@@ -181,28 +175,26 @@ digraph {
 
   are_you_using_dangerous_features[
     shape="diamond",
-    label="Are you using
-    experimental language features
-    that didn’t make it into ES2015
-    (e.g. decorators)?"
+    label="아직 ES2015에도 포함되지 않은
+    실험적인 기능들을 사용하고 있나요?
+    (decorators가 그 예입니다.)"
   ]
-  are_you_using_dangerous_features -> can_you_spend_days_on_your_tooling[label="yes"]
-  are_you_using_dangerous_features -> do_you_update_packages_asap[label="no"]
+  are_you_using_dangerous_features -> can_you_spend_days_on_your_tooling[label="네"]
+  are_you_using_dangerous_features -> do_you_update_packages_asap[label="아니오"]
 
   can_you_spend_days_on_your_tooling[
     shape="diamond",
-    label="Can you spend days on
-    fixing your tooling every few weeks
-    due to bugs, incompatibilities,
-    and standard changes?"
+    label="당신은 버그, 호환성 문제,
+    표준의 변경에 따라 매주마다 당신의
+    도구들을 고치는데 시간을 보낼 수 있습니까?"
   ]
-  can_you_spend_days_on_your_tooling -> do_you_update_packages_asap[label="yes"]
-  can_you_spend_days_on_your_tooling -> stick_to_es2015[label="no"]
+  can_you_spend_days_on_your_tooling -> do_you_update_packages_asap[label="네"]
+  can_you_spend_days_on_your_tooling -> stick_to_es2015[label="아니오"]
 
   stick_to_es2015[
     shape="box",
-    label="Stick to using at most ES2015,
-    JSX, and object spread operator."
+    label="ES2015, JSX, object spread operator
+    등 사용하기 용이한 기능에 충실하세요."
   ]
   stick_to_es2015 -> do_you_update_packages_asap
 
@@ -210,40 +202,38 @@ digraph {
 
   do_you_update_packages_asap[
     shape="diamond",
-    label="Do you update to new
-    major versions of your dependencies
-    as they come out?"
+    label="의존성이 있는 모듈들의 새 메이저 버전들이
+    나오면 적용합니까?"
   ]
-  do_you_update_packages_asap -> give_it_two_months[label="yes"]
-  do_you_update_packages_asap -> consider_updating_react[label="no"]
+  do_you_update_packages_asap -> give_it_two_months[label="네"]
+  do_you_update_packages_asap -> consider_updating_react[label="아니오"]
 
   give_it_two_months[
     shape="box",
-    label="Unless we are talking about React
-    which is tested heavily before every release,
-    consider slowing down rate of package updates.
-    You can try new versions of the dependencies but
-    it’s best to keep them in a branch for a couple of
-    months until the community finds and fixes the
-    most common issues. Don’t make decisions based on
-    the fear of missing out! When looking for older docs,
-    don’t forget to check tagged releases on GitHub, e.g.
-    https://github.com/reactjs/react-router/tree/0.13.x/doc"
+    label="매 릴리즈전에 충실히 테스트된 React에 대해
+    이야기 하려는 것은 아니지만, 패키지 업데이트의 속도를
+    늦추는 것을 고려해 보십시오.
+    의존성이 있는 모듈의 새 버전을 업데이트할 수 있지만
+    그 모듈의 커뮤니티에서 버전이 안정화 될때까지 몇달은
+    브랜치에 놔두는 것이 최선입니다.
+    트렌드를 못 쫓아갈까봐 두려워하지 마세요.
+    오래된 문서를 찾을때 깃헙의 태그릴리즈를 체크하는 것도
+    잊지 마십시오. 예를 들면
+    https://github.com/reactjs/react-router/tree/0.13.x/doc
+    같은 문서."
   ]
   give_it_two_months -> are_you_still_sad
 
   consider_updating_react[
     shape="box",
-    label="This is a good call.
-    However we encourage you to
-    try (in a branch!) new versions of
-    React as soon as they come out.
-    Unlike many community packages,
-    they are tested heavily by Facebook.
-    Keep an eye on the release notes
-    as they link to the codemods that
-    automate parts of the migration process
-    for you."
+    label="좋은 징조입니다.
+    어쨌거나, 새로운 React 버전이 나오면
+    적용해 보기를 권면합니다.(브랜치에서!)
+    많은 커뮤니티 패키지들과는 달리
+    Facebook에서 충실하게 테스트 되어 나옵니다.
+    릴리즈 노트는 충실하게 보셔야 합니다.
+    새 버전을 적용하기 위한 마이그레이션 절차를
+    자동화한 codemods의 링크가 담겨져 있습니다."
   ]
   consider_updating_react -> are_you_still_sad
 
@@ -253,32 +243,30 @@ digraph {
     shape="diamond",
     label="Are you still sad?"
   ]
-  are_you_still_sad -> rant[label="yes"];
-  are_you_still_sad -> happy[label="no"];
+  are_you_still_sad -> rant[label="네"];
+  are_you_still_sad -> happy[label="아니오"];
 
   rant[
     shape="box",
-    label="Write a constructive blog post
-    about the problems you encountered.
-    Refrain from personal attacks.
-    Be polite. Help the community
-    figure out the solutions. Consider
-    another stack that better suits
-    your needs (e.g. Ember)."
+    label="문제가 생기면 건설적인 블로그를
+    작성하세요. 인신공격은 삼가.
+    정중하게 말이죠. 문제 해결을 위해 커뮤니티
+    에 참여하세요. Ember 같은 당신에게 맞는
+    다른 길을 찾아 보는 방법도 있습니다."
   ]
   rant -> happy
 
   happy[
     shape="box",
-    label="React makes you happy!
-    Or, at least, it doesn’t make you that sad anymore."
+    label="React 땜에 행복해졌습니다!
+    아니면 적어도 더 이상 슬프지는 않군요!"
   ]
   happy -> share
 
   share [
     shape="box",
     style=rounded,
-    label="Share this flowchart: http://bit.ly/react-makes-you-sad.
-    Based on and inspired by https://github.com/petehunt/react-howto."
+    label="이 플로우 차트를 널리 공유해 주세요: http://bit.ly/react-makes-you-sad.
+    다음의 프로젝트에서 영감을 얻어서 만들었습니다: https://github.com/petehunt/react-howto."
   ]
 }
