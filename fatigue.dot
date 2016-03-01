@@ -155,7 +155,7 @@ digraph {
   do_you_know_es2015[
     shape="diamond",
     label="Você se sente
-    conforável usando funcionalidades do ES2105
+    confortável usando funcionalidades do ES2105
     (ex: classes e fat arrows)?"
   ]
   do_you_know_es2015 -> use_es5[label="não"]

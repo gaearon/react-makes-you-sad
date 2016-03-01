@@ -197,15 +197,15 @@
 </g>
 <!-- do_you_know_es2015 -->
 <g id="node13" class="node"><title>do_you_know_es2015</title>
-<polygon fill="none" stroke="black" points="764,-1390 473.765,-1340 764,-1290 1054.24,-1340 764,-1390"/>
+<polygon fill="none" stroke="black" points="764,-1390 469.93,-1340 764,-1290 1058.07,-1340 764,-1390"/>
 <text text-anchor="middle" x="764" y="-1349.8" font-family="Times,serif" font-size="14.00">Você se sente</text>
-<text text-anchor="middle" x="764" y="-1335.8" font-family="Times,serif" font-size="14.00"> &#160;&#160;&#160;conforável usando funcionalidades do ES2105</text>
+<text text-anchor="middle" x="764" y="-1335.8" font-family="Times,serif" font-size="14.00"> &#160;&#160;&#160;confortável usando funcionalidades do ES2105</text>
 <text text-anchor="middle" x="764" y="-1321.8" font-family="Times,serif" font-size="14.00"> &#160;&#160;&#160;(ex: classes e fat arrows)?</text>
 </g>
 <!-- are_you_working_on_production_app_with_bundler&#45;&gt;do_you_know_es2015 -->
 <g id="edge16" class="edge"><title>are_you_working_on_production_app_with_bundler&#45;&gt;do_you_know_es2015</title>
-<path fill="none" stroke="black" d="M422.839,-1595.13C397.443,-1581.29 370.098,-1561.16 355.772,-1534 333.794,-1492.33 326.134,-1464.62 355.772,-1428 383.51,-1393.73 477.118,-1372.38 567.707,-1359.41"/>
-<polygon fill="black" stroke="black" points="568.459,-1362.84 577.878,-1357.99 567.489,-1355.91 568.459,-1362.84"/>
+<path fill="none" stroke="black" d="M422.839,-1595.13C397.443,-1581.29 370.098,-1561.16 355.772,-1534 333.794,-1492.33 326.134,-1464.62 355.772,-1428 383.373,-1393.9 476.193,-1372.59 566.361,-1359.61"/>
+<polygon fill="black" stroke="black" points="567.072,-1363.04 576.487,-1358.18 566.096,-1356.11 567.072,-1363.04"/>
 <text text-anchor="middle" x="366.114" y="-1476.8" font-family="Times,serif" font-size="14.00">sim</text>
 </g>
 <!-- remove_bundler -->
