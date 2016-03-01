@@ -4,9 +4,9 @@ Fluxograma para te fazer feliz novamente!
 Original (em inglês): https://github.com/gaearon/react-makes-you-sad
 
 
-## <a href='https://github.com/brunogenaro/react-makes-you-sad/blob/master/fatigue.svg' target='_blank'>Open in a new tab</a>
+## <a href='https://cdn.rawgit.com/gaearon/react-makes-you-sad/cdde996329a0fc053eea955da2b664862672a146/fatigue.svg' target='_blank'>Open in a new tab</a>
 
-<img src='https://github.com/brunogenaro/react-makes-you-sad/blob/master/fatigue.svg'>
+<img src='https://cdn.rawgit.com/brunogenaro/react-makes-you-sad/cdde996329a0fc053eea955da2b664862672a146/fatigue.svg'>
 
 ## Credits
 
