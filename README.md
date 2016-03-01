@@ -4,9 +4,9 @@ Fluxograma para te fazer feliz novamente ao usar React!
 Original (em inglês): https://github.com/gaearon/react-makes-you-sad
 
 
-## <a href='https://cdn.rawgit.com/gaearon/react-makes-you-sad/8ecef350f73e45d30347fb0736e354a2b07fe9cb/fatigue.svg' target='_blank'>Abrir em nova aba</a>
+## <a href='https://cdn.rawgit.com/gaearon/react-makes-you-sad/6dab4ced0c1e5426d60d3d0f86693410bbb00f2b/fatigue.svg' target='_blank'>Abrir em nova aba</a>
 
-<img src='https://cdn.rawgit.com/brunogenaro/react-makes-you-sad/8ecef350f73e45d30347fb0736e354a2b07fe9cb/fatigue.svg'>
+<img src='https://cdn.rawgit.com/brunogenaro/react-makes-you-sad/6dab4ced0c1e5426d60d3d0f86693410bbb00f2b/fatigue.svg'>
 
 ## Créditos
 
