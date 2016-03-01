@@ -65,9 +65,9 @@ digraph {
 
   is_too_much_flux[
     shape="diamond",
-    label="Isso adicionar muitos
-    boilerplates para
-    um NÃO resultado significativo?"
+    label="Isso poderia adicionar muitos
+    boilerplates sem um
+    resultado significativo?"
   ]
   is_too_much_flux -> remove_flux[label="sim"]
   is_too_much_flux -> are_you_using_bundler[label="não"]
@@ -131,7 +131,7 @@ digraph {
     label="Adicione um empacotador como parte do seu
     processo para manter as dependências manuseáveis
     e servir o código JavaScript eficientemente.
-    Use a ferramente Google Page Speed Insights
+    Use a ferramenta Google Page Speed Insights
     para medir o quão bem você está indo.
     Lembre-se de minificar e envify
     seu código."
@@ -155,7 +155,7 @@ digraph {
   do_you_know_es2015[
     shape="diamond",
     label="Você se sente
-    confortável usando funcionalidades do ES2105
+    confortável usando funcionalidades do ES2015
     (ex: classes e fat arrows)?"
   ]
   do_you_know_es2015 -> use_es5[label="não"]
@@ -192,7 +192,7 @@ digraph {
     shape="diamond",
     label="Você pode gastar dias arrumando
     suas ferramentas por causa
-    de erros, incompatibilidades e
+    de erros, incompatibilidades ou
     mudanças padrões?"
   ]
   can_you_spend_days_on_your_tooling -> do_you_update_packages_asap[label="sim"]
@@ -220,10 +220,10 @@ digraph {
     shape="box",
     label="A não ser que estejamos falando de React
     que é muito bem testado antes de cada lançamento,
-    conside ir devagar em atualizações de pacotes.
+    considere ir devagar em atualizações de pacotes.
     Você pode tentar novas versões de dependências mas
     é melhor mantê-los em uma branch por alguns meses
-    até que a comunidades encontre e arrume os
+    até que a comunidade encontre e arrume os
     erros mais comuns. Não faça decisões baseadas em
     medo de perder algo! Quando olhar documentações antigas,
     não se esqueça de checar lançamentos tagged no GitHub, ex:
