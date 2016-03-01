@@ -20,6 +20,7 @@ Based on and inspired by https://github.com/petehunt/react-howto
 
 - [简体中文](https://github.com/wyvernnot/react-makes-you-sad)
 - [Français](https://github.com/matteodelabre/react-vous-rend-triste)
+- [한국어](https://github.com/ehrudxo/react-makes-you-sad)
 
 ## License
 
