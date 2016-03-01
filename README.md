@@ -19,6 +19,7 @@ Based on and inspired by https://github.com/petehunt/react-howto
 ## Translation
 
 - [简体中文](https://github.com/wyvernnot/react-makes-you-sad)
+- [Portuguese](https://github.com/brunogenaro/react-makes-you-sad)
 
 ## License
 
