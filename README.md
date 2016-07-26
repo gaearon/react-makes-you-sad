@@ -21,6 +21,8 @@ Based on and inspired by https://github.com/petehunt/react-howto
 
 * After you’ve learned React itself you can begin learning good deployment practices such as using JavaScript bundlers. Use [Google Page Speed](https://developers.google.com/speed/pagespeed/) to assess how well your app delivers the client code.
 
+* After you have learned React by itself first and are ready for a more serious development setup, check out the newly released [official React CLI](https://github.com/facebookincubator/create-react-app).
+
 ## Contributing
 
 1. Edit the `.dot` file with https://atom.io/packages/graphviz-preview
