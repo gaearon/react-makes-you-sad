@@ -21,6 +21,8 @@ Based on and inspired by https://github.com/petehunt/react-howto
 
 * After you’ve learned React itself you can begin learning good deployment practices such as using JavaScript bundlers. Use [Google Page Speed](https://developers.google.com/speed/pagespeed/) to assess how well your app delivers the client code.
 
+* If you want to see this info in the form of a quiz - built with create-react-app & redux! checkout <a href="https://jks8787.github.io/reactMakesYouSadTheQuiz/" target="_blank">React Makes You Sad -- the quiz </a>
+
 ## Contributing
 
 1. Edit the `.dot` file with https://atom.io/packages/graphviz-preview
