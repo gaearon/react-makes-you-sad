@@ -42,6 +42,7 @@ Based on and inspired by https://github.com/petehunt/react-howto
 - [한국어](https://github.com/ehrudxo/react-makes-you-sad)
 - [日本語](https://github.com/kuy/react-makes-you-sad)
 - [Русский](https://github.com/Sacret/react-makes-you-sad)
+- [Türkçe](https://github.com/oalmali/react-makes-you-sad)
 
 ## License
 
