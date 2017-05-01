@@ -114,7 +114,7 @@ digraph {
   are_you_working_on_production_app_with_bundler[
     shape="diamond",
     label="Are you working
-    on a production app?"
+    on a non-production app?"
   ]
   are_you_working_on_production_app_with_bundler -> do_you_know_es2015[label="yes"]
   are_you_working_on_production_app_with_bundler -> remove_bundler[label="no"]
